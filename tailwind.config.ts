@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        gold: {
+          DEFAULT: "hsl(var(--gold))",
+          foreground: "hsl(var(--gold-foreground))",
+        },
+        dark: {
+          DEFAULT: "hsl(var(--dark))",
+          foreground: "hsl(var(--dark-foreground))",
+        },
+        "blue-soft": "hsl(var(--blue-soft))",
+        "blue-light": "hsl(var(--blue-light))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +67,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ['Poppins', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'card': 'var(--shadow-card)',
+        'gold': 'var(--shadow-gold)',
       },
       borderRadius: {
         lg: "var(--radius)",
