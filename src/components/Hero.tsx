@@ -1,21 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Mail } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
-
 const Hero = () => {
   const scrollToSection = (id: string) => {
     const element = document.querySelector(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({
+        behavior: "smooth"
+      });
     }
   };
-
-  return (
-    <section
-      id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
-      style={{ background: "var(--gradient-hero)" }}
-    >
+  return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden" style={{
+    background: "var(--gradient-hero)"
+  }}>
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
       
       <div className="container mx-auto px-6 py-20 relative z-10">
@@ -44,20 +41,11 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-primary to-blue-soft hover:opacity-90 transition-opacity text-lg px-8 py-6 shadow-card"
-                onClick={() => scrollToSection("#portfolio")}
-              >
+              <Button size="lg" className="bg-gradient-to-r from-primary to-blue-soft hover:opacity-90 transition-opacity text-lg px-8 py-6 shadow-card" onClick={() => scrollToSection("#portfolio")}>
                 View Portfolio
                 <ArrowDown className="ml-2 h-5 w-5" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="text-lg px-8 py-6 border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-all"
-                onClick={() => scrollToSection("#contact")}
-              >
+              <Button size="lg" variant="outline" className="text-lg px-8 py-6 border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-all" onClick={() => scrollToSection("#contact")}>
                 <Mail className="mr-2 h-5 w-5" />
                 Contact Me
               </Button>
@@ -69,11 +57,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-gold rounded-full blur-3xl opacity-20 animate-pulse" />
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-gold border-4 border-primary/20">
-                <img
-                  src={profilePhoto}
-                  alt="Ankit Chhabilal Bharti"
-                  className="w-full h-full object-cover"
-                />
+                
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gold rounded-full flex items-center justify-center shadow-gold animate-bounce">
                 <span className="text-3xl">👋</span>
@@ -87,8 +71,6 @@ const Hero = () => {
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
         <ArrowDown className="h-6 w-6 text-primary" />
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
