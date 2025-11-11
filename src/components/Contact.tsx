@@ -128,7 +128,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
             <Card className="p-8 bg-dark-foreground/5 backdrop-blur-sm border-2 border-dark-foreground/10 shadow-card">
-              <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gold">Send a Message</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <Input
