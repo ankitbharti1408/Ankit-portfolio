@@ -27,26 +27,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "ankit.bharti@example.com",
-      href: "mailto:ankit.bharti@example.com",
+      value: "ankitbharti1408@gmail.com",
+      href: "mailto:ankitbharti1408@gmail.com",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/ankitbharti",
-      href: "https://linkedin.com/in/ankitbharti",
+      value: "linkedin.com/in/ankitbharti14",
+      href: "https://www.linkedin.com/in/ankitbharti14/",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/ankitbharti",
-      href: "https://github.com/ankitbharti",
+      value: "github.com/ankitbharti1408",
+      href: "https://github.com/ankitbharti1408",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      href: "tel:+91XXXXXXXXXX",
+      value: "+91 7666318493",
+      href: "tel:+917666318493",
     },
   ];
 
