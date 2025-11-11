@@ -1,42 +1,66 @@
-import { Trophy, Award, Users, GraduationCap, Medal } from "lucide-react";
+import { Trophy, Award, Users, GraduationCap, Medal, TrendingUp, Clock, Code, Coffee, GitBranch } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const Achievements = () => {
   const achievements = [
     {
-      icon: Trophy,
-      title: "99 Percentile in JEE Mains Paper 2",
-      description: "Exceptional academic performance in national-level entrance examination",
+      icon: TrendingUp,
+      title: "ProxyEdge Migration Lead",
+      description: "Led the successful migration of ProxyEdge, resulting in a 75% increase in operational efficiency",
       color: "gold",
+    },
+    {
+      icon: Clock,
+      title: "ITSM Process Optimization",
+      description: "Streamlined ITSM ticket creation processes, reducing resolution times by 80%",
+      color: "primary",
     },
     {
       icon: Medal,
       title: "National-Level Cricket Tournament",
       description: "Represented state at prestigious national sports competition",
-      color: "primary",
+      color: "gold",
     },
     {
       icon: Users,
       title: "Founded Triple T Club",
       description: "Established student club for peer learning and career development",
-      color: "gold",
+      color: "primary",
     },
     {
       icon: Award,
       title: "Best Student Leader",
       description: "Recognized for outstanding leadership and contribution to student community",
-      color: "primary",
+      color: "gold",
     },
     {
       icon: GraduationCap,
       title: "Certified in Financial Management",
       description: "Professional certification in financial analysis and strategic planning",
-      color: "gold",
+      color: "primary",
     },
     {
       icon: GraduationCap,
       title: "Data Analytics Certification",
       description: "Advanced certification in data science and analytics tools",
+      color: "gold",
+    },
+    {
+      icon: Code,
+      title: "Python Training – Coding Ninjas",
+      description: "Gained hands-on experience in Python programming, covering fundamentals, data structures, and real-world problem-solving through practical assignments and projects",
+      color: "primary",
+    },
+    {
+      icon: Coffee,
+      title: "Java Training – Cipher School",
+      description: "Completed comprehensive training in Java covering object-oriented programming, exception handling, collections, and GUI development",
+      color: "gold",
+    },
+    {
+      icon: GitBranch,
+      title: "GitHub & Version Control – Microsoft Student Partners",
+      description: "Learned efficient code management using Git and GitHub, including version control concepts, branching, pull requests, and collaborative development practices",
       color: "primary",
     },
   ];
