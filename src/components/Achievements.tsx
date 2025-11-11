@@ -107,8 +107,8 @@ const Achievements = () => {
 
         <div className="mt-16 text-center animate-fade-in">
           <Card className="inline-block p-8 bg-gradient-to-r from-gold/10 to-primary/10 border-2 border-gold/20 shadow-gold">
-            <p className="text-2xl font-bold text-gold mb-2">Continuous Growth</p>
-            <p className="text-dark-foreground/80">
+            <p className="text-2xl font-bold text-foreground mb-2">Continuous Growth</p>
+            <p className="text-foreground/90">
               Committed to excellence in finance, technology, and leadership
             </p>
           </Card>

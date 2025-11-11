@@ -95,8 +95,8 @@ const Contact = () => {
             </Card>
 
             <Card className="p-8 bg-gradient-to-br from-primary/10 to-gold/10 border-2 border-gold/20 shadow-gold">
-              <h3 className="text-xl font-bold mb-3 text-gold">Open to Opportunities</h3>
-              <p className="text-dark-foreground/80 leading-relaxed">
+              <h3 className="text-xl font-bold mb-3 text-foreground">Open to Opportunities</h3>
+              <p className="text-foreground/90 leading-relaxed">
                 I'm actively seeking opportunities in finance management, strategic planning, 
                 and roles that blend financial acumen with technology. Let's discuss how I can 
                 contribute to your organization's success.
