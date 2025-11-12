@@ -31,7 +31,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-6 font-medium">
-              MBA Student | Finance & Marketing Enthusiast | Data-Driven Problem Solver
+              Finance & Marketing Professional | Data-Driven Problem Solver | Strategic Thinker | Tech-Driven Innovator | Growth-Oriented Professional
             </p>
             
             <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
