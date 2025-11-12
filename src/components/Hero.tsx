@@ -35,9 +35,7 @@ const Hero = () => {
             </p>
             
             <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              I'm an MBA student passionate about Finance and Marketing, strategy, innovation, and leadership. 
-              With a foundation in Computer Science Engineering and specialization in Data Science and Full Stack Development, 
-              I aim to bridge financial acumen with technology to drive business growth.
+              Passionate about finance, marketing, strategy, innovation, and leadership, with a strong foundation in computer science engineering and specialization in data science and full stack development. Focused on integrating financial expertise with technology to drive sustainable business growth and strategic advancement.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
