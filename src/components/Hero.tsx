@@ -35,7 +35,7 @@ const Hero = () => {
             </p>
             
             <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Passionate about finance, marketing, strategy, innovation, and leadership, with a strong foundation in computer science engineering and specialization in data science and full stack development. Focused on integrating financial expertise with technology to drive sustainable business growth and strategic advancement.
+              Experienced in finance, marketing, strategy, innovation, and leadership, with a strong foundation in computer science engineering and specialization in data science and full stack development. Focused on integrating financial expertise with technology to drive sustainable business growth and strategic advancement.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
