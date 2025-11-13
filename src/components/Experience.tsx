@@ -22,7 +22,7 @@ const Experience = () => {
               <div className="flex-1">
                 <div className="mb-4">
                   <h3 className="text-2xl font-bold text-foreground mb-2">
-                    Full Stack Developer – Intern
+                    Full Stack Developer
                   </h3>
                   <p className="text-xl font-semibold text-primary mb-3">
                     Broadridge Financial Solutions
@@ -30,7 +30,7 @@ const Experience = () => {
                   <div className="flex flex-wrap gap-4 text-muted-foreground">
                     <div className="flex items-center gap-2">
                       <Calendar className="h-4 w-4" />
-                      <span className="text-sm">August 2022 – August 2023</span>
+                      <span className="text-sm">August 2022 – June 2025</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPin className="h-4 w-4" />
