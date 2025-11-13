@@ -54,7 +54,7 @@ const Hero = () => {
           <div className="flex-1 flex justify-center lg:justify-end animate-scale-in">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-gold rounded-full blur-3xl opacity-20 animate-pulse" />
-              <div className="relative w-80 h-80 md:w-[28rem] md:h-[28rem] lg:w-[32rem] lg:h-[32rem] rounded-full overflow-hidden shadow-gold border-4 border-primary/20">
+              <div className="relative w-80 h-80 md:w-[28rem] md:h-[28rem] lg:w-[32rem] lg:h-[32rem] rounded-full overflow-hidden shadow-gold border-4 border-primary/20 bg-gradient-to-br from-primary/20 to-gold/20">
                 <img src={profilePhoto} alt="Ankit Chhabilal Bharti - Professional Profile" className="w-full h-full object-cover object-center scale-100" />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gold rounded-full flex items-center justify-center shadow-gold animate-bounce">
